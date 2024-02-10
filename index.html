@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            background-color: #111;
+            color: #fff;
+        }
+
+        .image {
+            background-image: url('netflix_image_1.jpg');
+            background-size: cover;
+            width: 100%;
+            height: 610px;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start; 
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            margin-top: 15px;
+            line-height: 1;
+            letter-spacing: -0.5px;
+            margin-left: 25px;
+        }
+
+        .button-container {
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+            margin-left: 25px; 
+        }
+
+        .button-container div {
+            background-color: rgb(229, 9, 20); 
+            padding: 10px; 
+            margin-right: 20px;
+            height: 33px;
+            border-radius: 5px; 
+        }
+
+        button {
+            height: 50px;
+            width: 12%;
+            border-color: rgba(0, 0, 0, 0);
+            color: white;
+            font-size: 1rem;
+            font-weight: bold;
+            background-color: transparent; 
+        }
+
+        .additional-section {
+            background-color: #111;  
+            padding: 20px;
+            text-align: center;
+        }
+
+        .additional-images {
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 20px;
+        }
+
+        .additional-images img {
+            height: 150px;
+            width: 150px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="image">
+        <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+            <h1 style="color: red;">NETFLIX</h1>
+            <div class="button-container">
+                <div>
+                    <button>English</button>
+                </div>
+                <div>
+                    <button>Sign In</button>
+                </div>
+            </div>
+        </div>
+
+        <div style="align-items: center; justify-content: center; text-align: center; margin-top: 140px; width: 100%;">
+            <center>
+                <h1>Unlimited movies, TV shows and more</h1>
+                <p>Watch anywhere. Cancel anytime</p>
+                <p>Ready to watch? Enter your email to create or restart your membership.</p>
+                <input type="text" placeholder="Email address">
+                <button style="background: rgb(229, 9, 20);" >Get Started</button>
+            </center>
+        </div>
+    </div>
+
+    <div class="additional-section">
+        <h2>Explore More</h2>
+        
+    </div>
+</body>
+</html>
+
